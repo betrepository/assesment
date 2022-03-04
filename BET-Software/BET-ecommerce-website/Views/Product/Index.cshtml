@@ -1,0 +1,77 @@
+﻿@model IEnumerable<BET_ecommerce_website.Models.ProductViewModel>
+
+@{
+    ViewBag.Title = "BET";
+}
+
+<br/>
+
+<span id="spanTotalPrice" style="font-size:30px; color:blue; align-content:center">Total Price : R @ViewBag.TotalPrice</span>
+
+ <br/>
+ <br/>
+
+ <a  onclick="checkOut()" class="btn btn-primary  btn-lg">Check Out</a>
+
+ <br/>
+ <br/>
+
+<br/>
+<div class="jumbotron">
+    <table class="table">
+        <tr style="height:75px">
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            var imagehref = "/Images/Product_" + item.ID + ".jpg"; 
+            var spanId = "spanTotal_" + item.ID ;
+           
+            <tr>
+                <td>
+                    <img width="120px" height="120px" src="@imagehref" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <a onclick="addToCart(@item.ID)" class="btn btn-primary">Add To Cart</a>
+
+                    <a onclick="removeFromCart(@item.ID)" class="btn btn-primary">Remove</a>
+                    <span>
+
+                        <img width="50" height="50" src="~/Images/shoppingcart.png" />
+                    </span>
+
+                    <b><span class="span_cart_totals" id="@spanId">@item.TotalCarts</span></b>
+                </td>            
+            </tr>
+        }
+
+    </table>
+</div>
+
+

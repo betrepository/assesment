@@ -1,0 +1,12 @@
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\bin\Debug\BET.eCommerce.Data.Repositories.exe.config
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\bin\Debug\BET.eCommerce.Data.Repositories.exe
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\bin\Debug\BET.eCommerce.Data.Repositories.pdb
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\obj\Debug\BET.eCommerce.Data.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\obj\Debug\BET.eCommerce.Data.Repositories.csproj.CopyComplete
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\obj\Debug\BET.eCommerce.Data.Repositories.exe
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\obj\Debug\BET.eCommerce.Data.Repositories.pdb
+C:\Users\lucasma\source\repos\BET-Software\BET.eCommerce.Data.Repositories\obj\Debug\BET.eCommerce.Data.Repositories.csprojAssemblyReference.cache

@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET-ecommerce-web-api\\BET-ecommerce-web-api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET-ecommerce-web-api\\BET-ecommerce-web-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET-ecommerce-web-api\\BET-ecommerce-web-api.csproj",
+        "projectName": "BET-ecommerce-web-api",
+        "projectPath": "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET-ecommerce-web-api\\BET-ecommerce-web-api.csproj",
+        "packagesPath": "C:\\Users\\lucasma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET-ecommerce-web-api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucasma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET.eCommerce.Data.Repositories\\BET.ecommerce.data.repositories.csproj": {
+                "projectPath": "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET.eCommerce.Data.Repositories\\BET.ecommerce.data.repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET.eCommerce.Data.Repositories\\BET.ecommerce.data.repositories.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET.eCommerce.Data.Repositories\\BET.ecommerce.data.repositories.csproj",
+        "projectName": "BET.ecommerce.data.repositories",
+        "projectPath": "C:\\Users\\lucasma\\source\\repos\\BET-Software\\BET.eCommerce.Data.Repositories\\BET.ecommerce.data.repositories.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

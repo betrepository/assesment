@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - e-Commerce</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <a href="#" id="my_nav" style="color:navy">
+            <img src="~/Images/BETLogo.png" height="85" width="180" style="float:  left;" />
+        </a>
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" style="background-color:darkblue" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" style="align-content:center">
+            <ul class="nav navbar-nav"></ul>
+            <br />
+            <ul class="nav navbar-nav navbar-custom-menu">
+                <li><a href="~/Home/Index" style="color:"><strong>Home</strong></a></li>
+                <li><a href="~/Product/Index" style="color:;"><strong>Products</strong></a></li>
+                <li><a href="~/Cart/ViewShoppingCart" style="color:;"><strong>View Shopping cart</strong></a></li>
+                <li><a href="~/Order/IndexAsync" style="color:;"><strong>My Orders</strong></a></li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+
+    <div class="container-fluid body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - BET- e-Commerce</p>
+        </footer>
+    </div>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/cart.js"></script>
+</body>
+</html>

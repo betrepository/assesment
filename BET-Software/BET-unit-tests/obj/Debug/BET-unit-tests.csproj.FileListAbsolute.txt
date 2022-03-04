@@ -1,0 +1,14 @@
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\BET-unit-tests.dll
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\BET-unit-tests.pdb
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\obj\Debug\BET-unit-tests.csprojAssemblyReference.cache
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\obj\Debug\BET-unit-tests.csproj.CoreCompileInputs.cache
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\obj\Debug\BET-unit-tests.csproj.CopyComplete
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\obj\Debug\BET-unit-tests.dll
+C:\Users\lucasma\source\repos\BET-Software\BET-unit-tests\obj\Debug\BET-unit-tests.pdb
